@@ -159,7 +159,7 @@ The kernel density estimate (KDE) plots, as visualised in Section 1.3.2 Prelimin
 cor(dataset) # correlation matrix
 @
 \noindent A correlation matrix is a tool to describe the measures of association between attributes. It lists all the Pearson product-moment correlation coefficients. The correlations will compare and describe the linear connection and relationship between pairs of attributes, through the type of correlation and its strength. A positive correlation means that both attribute' values will change in the exact same direction, while a negative correlation means that both attribute' values will change in opposite directions. The larger the correlation strength, the stronger the connection and relationship between that pair of attributes.\\
-For instance, it is found that the 'weight' and 'Time' predictors have the most notable linear relationship with a high correlation coefficient of 0.8433. This means that an increase of one of 'Time', will result in weight increasing by an average of 0.8433 unit.
+For instance, it is found that the 'weight' and 'Time' predictors have the most notable linear relationship with a high correlation coefficient of 0.8433.
 
 \subsubsection{Preliminary Visualisations and Mathematical Modelling}
 \begin{figure}[H]
@@ -493,7 +493,7 @@ The kernel density estimate (KDE) plots, as visualised in Section 1.3.2 Prelimin
 cor(dataset2) #correlation matrix
 @
 \noindent A correlation matrix lists all the Pearson product-moment correlation coefficients. The correlations will compare and describe the linear connection and relationship between pairs of attributes, through the type of correlation and its strength. A positive correlation indicates that both attribute' values will change in the same direction, while a negative correlation indicates that both attribute' values will change in opposite directions. The larger the correlation strength, the stronger the connection and relationship between that pair of attributes.\\
-For instance, it is found that the 'mpg' and 'wt' predictors have the most notable linear relationship with a high correlation coefficient of -0.8725. This means that for a unit increase in 'wt', mpg will decrease by an average of 0.8725 unit.
+For instance, it is found that the 'mpg' and 'wt' predictors have the most notable linear relationship with a high correlation coefficient of -0.8725. 
 
 \noindent Higher correlations with the dependent attribute 'mpg' of above an absolute value of 0.7 is filtered and listed.
 <<echo=FALSE>>=
